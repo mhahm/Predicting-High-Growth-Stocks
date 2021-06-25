@@ -8,31 +8,36 @@ In this project, I build a machine learning model, trained on financial data der
 # Table of Contents
 ---------------------------------
 ## Data Wrangling
-[Data Acquisition and Initial Wrangling](https://github.com/mhahm/capstone2_update/blob/main/Data%20Wrangling.ipynb)
+[Data Acquisition and Initial Wrangling](https://github.com/mhahm/Predicting-High-Growth-Stocks/blob/master/Notebooks/Data%20Wrangling.ipynb)
 * Loading of Data
 * Merging of Datasets
 * Creation of target variable: calculate percent returns and determine threshold
-* Saving of [merged data set with target](https://github.com/mhahm/capstone2_update/blob/master/dataset_wrangled/target.csv)
+* Creation of csv file: [merged data set with target](https://github.com/mhahm/Predicting-High-Growth-Stocks/blob/master/dataset_wrangled/target.csv)
 
-## Pre-processing and Exploratory Data Analysis (EDA)
-[Preprocessing, EDA, and Feature Engineering](https://github.com/mhahm/capstone2_update/blob/master/EDA%20and%20Data%20Pre-processing.ipynb)
+## Cleaningm Engineering, and Exploratory Data Analysis (EDA)
+[Missing Values, Feature Engineering, EDA](https://github.com/mhahm/Predicting-High-Growth-Stocks/blob/master/Notebooks/Missing%20Values%2C%20Feature%20Engineering%2C%20and%20EDA.ipynb)
 * Further preprocessing and exploration - missing values
 * Engineering new features from pre-existing features
 * Descriptive Statistics
 * Visualizations of distributions
-* Creation of [clean data set](https://github.com/mhahm/capstone2/blob/main/dataset_wrangled/df_clean.csv) ready for modeling
+* Creation of [clean data set](https://github.com/mhahm/Predicting-High-Growth-Stocks/blob/master/dataset_wrangled/df_clean.csv) ready for modeling
 
 ## Machine Learning Modeling
-[Modeling and Evaluation on All Features](https://github.com/mhahm/capstone2_update/blob/master/Modeling%20and%20Evaluation%20After%20Feature%20Selection.ipynb)
+[Modeling and Evaluation on All Features](https://github.com/mhahm/Predicting-High-Growth-Stocks/blob/master/Notebooks/Preprocessing%2C%20Modeling%2C%20and%20Evaluation%20on%20All%20Features.ipynb)
 * Creation of various supervised classification models
 * Model Optimization
 * Evaluation of models through various classification metrics
 
-[Feature Selection](https://github.com/mhahm/capstone2_update/blob/master/Feature%20Selection.ipynb)
-* removed multicollinearity
+[Feature Selection](https://github.com/mhahm/Predicting-High-Growth-Stocks/blob/master/Notebooks/Feature%20Selection.ipynb)
+* Correlation of predictors with target variable
+    * Removed multicollinearity
+* SelectKBest and Mutual Information
+    * Top 30 Scores
 
-[Modeling and Evaluation on Subset of Features](https://github.com/mhahm/capstone2_update/blob/master/Modeling%20and%20Evaluation%20After%20Feature%20Selection.ipynb)
+Modeling and Evaluation on Subset of Features
 * Modeling and evaluation steps repeated but for a subset of features chosen through feature selection
+* [Modeling on Correlations Subset](https://github.com/mhahm/Predicting-High-Growth-Stocks/blob/master/Notebooks/Modeling%20Features%20Reduced%20by%20Correlations.ipynb)
+* [Modeling on Mutual Information Subset](https://github.com/mhahm/Predicting-High-Growth-Stocks/blob/master/Notebooks/Modeling%20Features%20Reduced%20by%20Mutual%20Information.ipynb)
 
 #### NOTE: If the notebooks previews do not render properly, please paste the github links to each notebook into [nbviewer](https://nbviewer.jupyter.org)
 
