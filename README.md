@@ -2,7 +2,10 @@
 
 What do the financial fundamentals of companies tell us in predicting stock price returns?
 
-In this project, I build a machine learning model, trained on financial data derived from 10-K filings, to classify stocks from the S&P 500 that have a 20% rate of return in a 1 year period.
+Can we sift through the data to classify the winners and losers?
+
+In this project, I build a machine learning model, trained on financial data derived from 10-K filings, to classify stocks from the S&P 500 that have a 20% rate of return in a 1 year period. I implement various supervised learning algorithms and evaluate them through various metrics such as F1-score and AUC. I also implement feature engineering, feature selection, oversampling, and hyperparameter tuning to improve results. Check out the code notebook hyperlinks in the table of contents for more details on each step of the process
+
 ![image](https://github.com/mhahm/capstone2_update/blob/master/Images/growth_stock_image.jpg)
 
 # Table of Contents
